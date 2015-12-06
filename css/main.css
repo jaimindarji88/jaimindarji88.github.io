@@ -1,0 +1,11 @@
+body {
+	width: 100%;
+	height: 100vh;
+	color: white;
+}
+
+.background-cover {background: url('/images/Cosmos01.jpg') center no-repeat;
+	width: 100%;
+	height: 100vh;
+}
+
