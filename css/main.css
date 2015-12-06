@@ -77,8 +77,8 @@ figure:nth-child(9) {
    10.5% {
       opacity:1;
    }
-   12.5%{
-      opacity: 0;
+   30%{
+      opacity: 0.5;
    }
    98% {
       opacity:0;
