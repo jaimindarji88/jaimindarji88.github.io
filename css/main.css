@@ -23,7 +23,11 @@ body {
     top: 100px;
     border-radius: 10px;
     z-index: 99999;
-    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px; /* margin is -0.5 * dimension */
+    margin-top: -150px; 
+    position: absolute;
     color: black;
     text-align: center;
 }
@@ -31,7 +35,8 @@ body {
 .css-slideshow{
    position: relative;
    max-width: 100%;
-   min-height: 1px;
+   height: 100vh;
+   min-height: 1px
 }
 .css-slideshow figure{
    margin: 0;
@@ -77,8 +82,8 @@ figure:nth-child(9) {
    10.5% {
       opacity:1;
    }
-   30%{
-      opacity: 0.5;
+   12.5%{
+      opacity: 0;
    }
    98% {
       opacity:0;
