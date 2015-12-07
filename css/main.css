@@ -5,7 +5,7 @@ html {
 body {
 	width: 100%;
 	height: 100vh;
-	color: white;
+	background-color: black;
 }
 
 .background-cover {background: url('/images/Cosmos01.jpg') center no-repeat;
@@ -48,39 +48,47 @@ body {
 }
 
 figure:nth-child(1) {
-   animation: xfade 48s 48s infinite;
+   animation: fadeout 64s 64s infinite;
+
 }
 figure:nth-child(2) {
-   animation: xfade 48s 42s infinite;
+   animation: fadeout 64s 56s infinite;
+   
 }
 figure:nth-child(3) {
-   animation: xfade 48s 36s infinite;
+   animation: fadeout 64s 48s infinite;
+   
 }
 figure:nth-child(4) {
-   animation: xfade 48s 30s infinite;
+   animation: fadeout 64s 40s infinite;
+   
 }
 figure:nth-child(5) {
-   animation: xfade 48s 24s infinite;
+   animation: fadeout 64s 32s infinite;
+   
 }
 figure:nth-child(6) {
-   animation: xfade 48s 18s infinite;
+   animation: fadeout 64s 24s infinite;
+   
 }
 figure:nth-child(7) {
-   animation: xfade 48s 12s infinite;
+   animation: fadeout 64s 16s infinite;
+   
 }
 figure:nth-child(8) {
-   animation: xfade 48s 6s infinite;
+   animation: fadeout 64s 8s infinite;
+   
 }
 figure:nth-child(9) {
-   animation: xfade 48s 0s infinite;
+   animation: fadeout 64s 0s infinite;
 }
 
-@keyframes xfade{
+@keyframes fadeout{
    0%{
       opacity: 1;
    }
-   10.5% {
-      opacity:1;
+   10.5%{
+   	opacity: 1;
    }
    12.5%{
       opacity: 0;
@@ -90,6 +98,18 @@ figure:nth-child(9) {
    }
    100% {
       opacity:1;
+   }
+}
+
+@keyframes fadein{
+	0%{
+      opacity: 0;
+   }
+   50% {
+      opacity:1;
+   }
+   100%{
+   	  opacity: 0;
    }
 }
 
