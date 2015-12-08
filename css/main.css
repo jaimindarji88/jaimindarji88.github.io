@@ -1,12 +1,10 @@
-html {
-	width: 100%;
-	height: 100vh;
-}
+
 body {
 	width: 100%;
 	height: 100vh;
 	background-color: black;
 }
+
 
 .background-cover {background: url('/images/Cosmos01.jpg') center no-repeat;
 	width: 100%;
@@ -52,11 +50,11 @@ figure:nth-child(1) {
 
 }
 figure:nth-child(2) {
-   animation: fadeout 64s 56s infinite;
+  animation: fadeout 64s 56s infinite;
    
 }
 figure:nth-child(3) {
-   animation: fadeout 64s 48s infinite;
+  animation: fadeout 64s 48s infinite;
    
 }
 figure:nth-child(4) {
