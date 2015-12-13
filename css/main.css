@@ -32,9 +32,9 @@ body {
 
 .linkedin{
   display: inline-block;
-  position: fixed;
-  bottom: 340px;
-  right: 710px;
+  position: absolute;
+  bottom: 10;
+  right: 10;
 }
 
 .linkedin img:hover{
