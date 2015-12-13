@@ -23,11 +23,22 @@ body {
     z-index: 99999;
     top: 50%;
     left: 50%;
-    margin-left: -250px; /* margin is -0.5 * dimension */
+    margin-left: -250px;
     margin-top: -150px; 
     position: absolute;
     color: black;
     text-align: center;
+}
+
+.linkedin{
+  display: inline-block;
+  position: fixed;
+  bottom: 100px;
+  right: 710px;
+}
+
+.linkedin img:hover{
+  opacity: 0.5;
 }
 
 .css-slideshow{
@@ -110,5 +121,6 @@ figure:nth-child(9) {
    	  opacity: 0;
    }
 }
+
 
 
