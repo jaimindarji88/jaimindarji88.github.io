@@ -40,6 +40,16 @@ body {
 .linkedin img:hover{
   opacity: 0.5;
 }
+.github{
+  display: inline-block;
+  position: absolute;
+  bottom: 10;
+  right: 55;
+}
+
+.github img:hover{
+  opacity: 0.5;
+}
 
 .css-slideshow{
    position: relative;
