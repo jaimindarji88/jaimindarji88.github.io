@@ -5,49 +5,63 @@ body {
 	background-color: black;
 }
 
-
-.background-cover {background: url('/images/Cosmos01.jpg') center no-repeat;
-	width: 100%;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-}
-
-.text {
+.header{
     margin: 0 auto;
-    width: 500px;
-    height: 300px;
-    background-color: rgba(255,255,255,0.6);
-    top: 100px;
-    border-radius: 10px;
+    width: 100%;
+    height: 6%;
+    background-color: rgba(0,0,0,0.6);
+    top: 0; left: 0; right:0;
     z-index: 99999;
-    top: 50%;
-    left: 50%;
-    margin-left: -250px;
-    margin-top: -150px; 
+    margin-left: 0px;
+    margin-top: 0px; 
     position: absolute;
-    color: black;
-    text-align: center;
+    color: white;
+}
+#about{
+  position: absolute;
+  left: 1vw;
+  font-size: 4.5vh;
+  color: gray;
+}
+#projects{
+  position: absolute;
+  left: 13vw;
+  font-size: 4.5vh;
+  color: gray;
+}
+#experience{
+  position: absolute;
+  left:23.5vw;
+  font-size: 4.5vh;
+  color: gray;
 }
 
-.linkedin{
+#linkedin{
   display: inline-block;
   position: absolute;
-  bottom: 10;
-  right: 10;
+  right: 1vh;
+  top: 1vh;
+  max-width: 40;
+  max-height: 40;
+  width: auto;
+  height: auto;
 }
 
-.linkedin img:hover{
+#linkedin img:hover{
   opacity: 0.5;
 }
-.github{
+#github{
   display: inline-block;
   position: absolute;
-  bottom: 10;
-  right: 55;
+  right: 6vh;
+  top: 1vh;
+  max-width: 40;
+  max-height: 40;
+  width: auto;
+  height: auto;
 }
 
-.github img:hover{
+#github img:hover{
   opacity: 0.5;
 }
 
@@ -56,6 +70,12 @@ body {
    max-width: 100%;
    height: 100vh;
    min-height: 1px
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -webkit-touch-callout: none;
+   user-select: none;
+
 }
 .css-slideshow figure{
    margin: 0;
