@@ -91,7 +91,7 @@ p {
   bottom: 7em;
 }
 
-a.aboutme, .home{
+a.aboutme, a.home{
   text-decoration: none;
   color: white;
   transition: 1s;
@@ -99,4 +99,40 @@ a.aboutme, .home{
 
 a.aboutme:hover, .home:hover{
   color: #2280d6;
+}
+
+h4 {
+  text-align:left;
+}
+
+h4.a-header{
+  text-align: center;
+}
+
+.description{
+  width: 600px;
+  position: absolute;
+  left: 3.8em;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+a.popup{
+  color: blue;
+}
+
+.popup img { 
+  border:1px solid #000;
+  margin:3px;
+  float:left;
+}
+.popup span { 
+  position:absolute;
+  visibility:hidden;
+}
+.popup:hover span { 
+  visibility:visible;
+  top: 12em; 
+  right: 22em; 
+  z-index:1;
 }
