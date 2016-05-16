@@ -30,7 +30,7 @@ h1 {
   font-family: 'Average', serif;
 }
 
-p {
+p.style {
   line-height: 0.1em;
   padding-top: 15px;
   font-weight: bold;
@@ -110,6 +110,7 @@ h4.a-header{
 }
 
 .description{
+  padding: 5px 5px 5px 5px;
   width: 600px;
   position: absolute;
   left: 3.8em;
@@ -132,7 +133,12 @@ a.popup{
 }
 .popup:hover span { 
   visibility:visible;
-  top: 13.5em; 
-  right: 22em; 
+  top: 14.7em; 
+  right: 24em; 
   z-index:1;
+}
+
+p.me {
+  text-align: justify;
+  text-indent: 30px;
 }
