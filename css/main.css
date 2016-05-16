@@ -133,7 +133,7 @@ a.popup{
 }
 .popup:hover span { 
   visibility:visible;
-  top: 14.7em; 
+  top: 15em; 
   right: 24em; 
   z-index:1;
 }
