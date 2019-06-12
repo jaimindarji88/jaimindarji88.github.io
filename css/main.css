@@ -1,5 +1,5 @@
-body { 
-  background: url(../assets/images/cosmos.jpg) no-repeat center center fixed; 
+body {
+  background: url(../assets/images/cosmos.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,16 +9,16 @@ body {
 #box {
   width: 500px;
   height: 300px;
-  padding: 20px; 
-  background-color: rgba(255,255,255,0.5); 
-  -moz-box-shadow: 0 0 20px black; 
-  -webkit-box-shadow: 0 0 20px black; 
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 0 20px black;
+  -webkit-box-shadow: 0 0 20px black;
   box-shadow: 0 0 20px black;
-  position:absolute;
-  left:50%;
-  top:50%;
-  margin-top:-150px;
-  margin-left:-250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -150px;
+  margin-left: -250px;
   border-radius: 7px;
   text-align: center;
 }
@@ -29,6 +29,16 @@ h1 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'Average', serif;
   padding-bottom: 0.5em;
+}
+
+h2 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Average', serif;
+}
+
+h2 a {
+  color: inherit;
 }
 
 p.sub {
@@ -52,7 +62,7 @@ p.sub {
   height: 45px;
 }
 
-.github:hover{
+.github:hover {
   opacity: 0.6;
 }
 
@@ -61,7 +71,7 @@ p.sub {
   height: 42px;
 }
 
-.linkedin:hover{
+.linkedin:hover {
   opacity: 0.6;
 }
 
@@ -73,36 +83,38 @@ p.sub {
   position: absolute;
 }
 
-#container{
+#container {
   width: 125px;
   height: 35px;
   position: absolute;
   border-radius: 10px;
-  background-color: rgba(0,0,0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
   left: 13.4em;
   bottom: 7em;
 }
 
-a.aboutme, a.home{
+a.aboutme,
+a.home {
   text-decoration: none;
   color: white;
   transition: 1s;
 }
 
-a.aboutme:hover, .home:hover{
+a.aboutme:hover,
+.home:hover {
   color: #2280d6;
 }
 
 h4 {
-  text-align:left;
+  text-align: left;
 }
 
-h4.a-header{
+h4.a-header {
   text-align: center;
 }
 
-.description{
+.description {
   padding: 5px 5px 5px 5px;
   width: 600px;
   position: absolute;
@@ -111,24 +123,24 @@ h4.a-header{
   border-radius: 10px;
 }
 
-a.popup{
+a.popup {
   color: blue;
 }
 
-.popup img { 
-  border:1px solid #000;
-  margin:3px;
-  float:left;
+.popup img {
+  border: 1px solid #000;
+  margin: 3px;
+  float: left;
 }
-.popup span { 
-  position:absolute;
-  visibility:hidden;
+.popup span {
+  position: absolute;
+  visibility: hidden;
 }
-.popup:hover span { 
-  visibility:visible;
-  top: 15em; 
-  right: 24em; 
-  z-index:1;
+.popup:hover span {
+  visibility: visible;
+  top: 15em;
+  right: 24em;
+  z-index: 1;
 }
 
 p.me {
